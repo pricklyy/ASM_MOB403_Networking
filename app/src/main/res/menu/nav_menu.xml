@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/quanli"
+            android:title="Quản lí"
+            android:icon="@drawable/ic_quanli"/>
+        <item
+            android:id="@+id/setting"
+            android:title="Setting"
+            android:icon="@drawable/ic_setting"/>
+
+        <item android:title="">
+            <menu>
+
+                <item
+                    android:id="@+id/thoat"
+                    android:title="Thoát"
+                    android:icon="@drawable/ic_logout"/>
+            </menu>
+        </item>
+    </group>
+</menu>
